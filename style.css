@@ -11,13 +11,13 @@ body {
 
 /* INTESTAZIONE - LOGO ATTACCATO IN ALTO */
 .header {
-  padding: 40px 20px 30px;
+  padding: 0px 20px 30px;
   margin: 0;
 }
 
 /* LOGO */
 .logo {
-  max-width: 320px;
+  max-width: 600px;
   width: 100%;
   height: auto;
   display: block;
