@@ -170,3 +170,19 @@ footer {
   font-size: 26px;
   margin-bottom: 15px;
 }
+
+/* RSVP */
+.rsvp-box {
+  margin-top: 40px;
+}
+
+.rsvp-box a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #3b3b3b;
+  letter-spacing: 1px;
+}
+
+.rsvp-box a:hover {
+  text-decoration: underline;
+}
