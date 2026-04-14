@@ -19,9 +19,9 @@ body {
 /* IMMAGINE DI INTESTAZIONE RESPONSIVE */
 .header-image {
   display: block;
-  width: 90%;
+  width: 100%;
   height: auto;
-  max-width: 90%;
+  max-width: 100%;
 
   /* LIMITI DI ALTEZZA */
   max-height: 60vh;          /* desktop */
