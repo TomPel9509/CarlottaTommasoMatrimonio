@@ -9,11 +9,21 @@ body {
   text-align: center;
 }
 
-/* INTESTAZIONE - LOGO ATTACCATO IN ALTO */
+/* HEADER */
 .header {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
+
+/* IMMAGINE DI INTESTAZIONE RESPONSIVE */
+.header-image {
+  display: block;        /* elimina spazi indesiderati */
+  width: 100%;           /* occupa tutta la larghezza */
+  height: auto;          /* mantiene le proporzioni */
+  max-width: 100%;       /* sicurezza */
+}
+``
 
 /* LOGO */
 .logo {
