@@ -127,3 +127,46 @@ footer {
   margin-bottom: 5px;
   opacity: 0.75; /* effetto elegante, non invadente */
 }
+
+/* PAGINE INTERNE */
+.page-header {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-header a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #3b3b3b;
+  letter-spacing: 1px;
+}
+
+.page-header a:hover {
+  text-decoration: underline;
+}
+
+.page-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+  text-align: center;
+}
+
+.page-content h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.event-section {
+  margin-bottom: 50px;
+}
+
+.event-date {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.event-section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
