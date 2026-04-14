@@ -119,3 +119,11 @@ footer {
     align-items: center;
   }
 }
+
+/* ICONE CARD */
+.card-icon {
+  width: 52px;
+  height: auto;
+  margin-bottom: 20px;
+  opacity: 0.75; /* effetto elegante, non invadente */
+}
