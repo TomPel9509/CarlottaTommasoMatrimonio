@@ -154,6 +154,22 @@ footer {
   letter-spacing: 1px;
 }
 
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+
+  /* LIMITI DI ALTEZZA */
+  max-height: 60vh;          /* desktop */
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .header-image {
+    max-height: 35vh;   /* molto più compatta su mobile */
+  }
+}
+
 .page-header a:hover {
   text-decoration: underline;
 }
