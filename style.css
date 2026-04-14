@@ -18,22 +18,15 @@ body {
 
 /* IMMAGINE DI INTESTAZIONE RESPONSIVE */
 .header-image {
-  display: block;        /* elimina spazi indesiderati */
-  width: 100%;           /* occupa tutta la larghezza */
-  height: auto;          /* mantiene le proporzioni */
-  max-width: 100%;       /* sicurezza */
-}
-``
-
-/* LOGO */
-.logo {
-  max-width: 600px;
-  width: 100%;
-  height: auto;
   display: block;
-  margin: 0 auto;
-}
+  width: 90%;
+  height: auto;
+  max-width: 90%;
 
+  /* LIMITI DI ALTEZZA */
+  max-height: 60vh;          /* desktop */
+  object-fit: contain;
+}
 /* INDICE HOME */
 .home-index {
   padding: 10px 20px 80px;
