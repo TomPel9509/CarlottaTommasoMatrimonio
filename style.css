@@ -1,15 +1,68 @@
+/* STILE GENERALE */
 body {
+  margin: 0;
   font-family: Georgia, serif;
-  background-color: #f7f4ef;
-  color: #333;
+  background-color: #f8f6f2;
+  color: #3b3b3b;
+  line-height: 1.6;
+}
+
+/* INTESTAZIONE */
+.header {
   text-align: center;
-  padding: 60px;
+  padding: 80px 20px 40px;
 }
 
-h1 {
-  font-size: 48px;
+/* LOGO */
+.logo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
-p {
-  font-size: 20px;
+/* INDICE HOME */
+.home-index {
+  text-align: center;
+  padding: 40px 20px 80px;
 }
+
+.home-index ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-index li {
+  margin: 20px 0;
+}
+
+.home-index a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #3b3b3b;
+  letter-spacing: 1px;
+}
+
+.home-index a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #ede9e3;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .logo {
+    max-width: 220px;
+  }
+
+  .home-index a {
+    font-size: 20px;
+  }
+}
+``
