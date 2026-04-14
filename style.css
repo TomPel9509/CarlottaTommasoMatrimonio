@@ -176,6 +176,11 @@ footer {
   margin-top: 40px;
 }
 
+
+.rsvp-box iframe {
+  border: none;
+}
+
 .rsvp-box a {
   font-size: 18px;
   text-decoration: none;
