@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Carlotta & Tommaso – Il nostro regalo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- HEADER -->
+  <header class="site-header">
+    <a href="index.html">
+      <img src="LogoMCT.png" alt="Carlotta e Tommaso" class="site-header-image">
+    </a>
+  </header>
+ 
+  <!-- CONTENUTO PRINCIPALE -->
+  <main class="page-content">
+ 
+    <h1>Il nostro regalo</h1>
+ 
+    <section class="event-section">
+      <p>
+        La vostra presenza al nostro matrimonio è per noi il regalo più grande.
+        Se però desiderate farci un pensiero, la scelta che ci renderebbe più
+        felici è un contributo per il nostro viaggio di nozze.
+      </p>
+    </section>
+ 
+    <div class="divider"></div>
+ 
+    <section class="event-section">
+      <h2>Un contributo per il viaggio</h2>
+      <p>
+        Se volete aiutarci a realizzare il viaggio dei nostri sogni,
+        potete farlo tramite bonifico bancario:
+      </p>
+      <p>
+        Intestatario: [Nome Cognome]<br>
+        IBAN: [Il vostro IBAN]<br>
+        Causale: Regalo di nozze Carlotta & Tommaso
+      </p>
+    </section>
+ 
+  </main>
+ 
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>Con affetto, Carlotta & Tommaso</p>
+  </footer>
+ 
+</body>
+</html>
+ 
