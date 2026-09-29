@@ -27,19 +27,29 @@ body {
   padding: 0;
 }
 
+/* Container principale */
 .container {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  width: 100%;
 }
 
-/* 1. Header con dimensioni corrette */
+/* 1. Header & Logo Ingrandito */
 header {
-  padding: 25px 0 15px 0;
+  padding: 30px 0 10px 0;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .logo-container img {
-  max-width: 180px; /* Dimensione ideale e proporzionata per l'header */
+  max-width: 320px; /* Logo ingrandito per una visibilità ottimale */
   width: 100%;
   height: auto;
   display: block;
@@ -77,13 +87,15 @@ nav {
   color: var(--color-accent);
 }
 
-/* Sezione Invito Principale */
+/* 2. Scheda Principale (Invito) - Correzione Allineamento */
 .invitation-card {
   background: var(--color-white);
   border: 1px solid rgba(197, 160, 89, 0.3);
-  padding: 45px 25px;
+  padding: 50px 30px;
   box-shadow: 0 8px 25px rgba(61, 35, 20, 0.04);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  width: 100%; /* Si estende esattamente quanto la griglia sottostante */
+  box-sizing: border-box;
 }
 
 .invitation-subtitle {
@@ -129,29 +141,30 @@ nav {
   color: var(--color-primary);
 }
 
-/* 3. Tre Schede Allineate Orizzontalmente */
+/* 3. Griglia a Tre Schede - Perfettamente Allineata alla Scheda Principale */
 .cards-grid {
-  display: flex; /* Forza l'allineamento orizzontale */
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: stretch; /* Mantiene tutte e 3 le schede della stessa altezza */
+  align-items: stretch;
   gap: 20px;
-  width: 100%;
+  width: 100%; /* Stessa larghezza della scheda principale */
   margin-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .card {
-  flex: 1; /* Ciascuna scheda occupa esattamente 1/3 dello spazio */
-  min-width: 0; /* Previene la rottura del layout su contenuti lunghi */
+  flex: 1;
+  min-width: 0;
   background-color: var(--color-white);
   border: 1px solid rgba(197, 160, 89, 0.3);
-  padding: 30px 15px;
+  padding: 30px 20px;
   box-shadow: 0 5px 15px rgba(61, 35, 20, 0.03);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
 }
 
 .card:hover {
