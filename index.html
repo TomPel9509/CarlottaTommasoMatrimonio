@@ -9,16 +9,26 @@
 <body>
 
   <div class="container">
-    <!-- Header con Logo Monogramma -->
+    
+    <!-- Header con Logo Ridimensionato -->
     <header>
       <div class="logo-container">
         <img src="logo-ct.png" alt="Logo Carlotta e Tommaso">
       </div>
     </header>
 
-    <!-- Scheda Partecipazione -->
-    <main class="invitation-card">
-      <p class="invitation-subtitle">Vi invitiamo a unirvi a noi<br>per celebrare il nostro matrimonio</p>
+    <!-- Navigazione Orizzontale Senza Elenco Puntato -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="evento.html">Il giorno</a></li>
+        <li><a href="rsvp.html">R.S.V.P.</a></li>
+        <li><a href="regalo.html">Lista Nozze</a></li>
+      </ul>
+    </nav>
+
+    <!-- Scheda Principale Partecipazione -->
+    <main id="invito" class="invitation-card">
+      <p class="invitation-subtitle">Vi invitiamo a unirvi a noi per celebrare il nostro matrimonio</p>
       
       <h1 class="names-heading">
         CARLOTTA
@@ -29,21 +39,12 @@
       <div class="divider"></div>
 
       <div class="event-details">
-        <p class="date-time">Sabato 22 Maggio 2027</p>
-        <p class="date-time">Ore 17:30</p>
-        
-  <!-- INDICE DEL SITO -->
-  <main class="home-index">
-    <nav>
-      <ul>
-        <li><a href="evento.html">Il giorno</a></li>
-        <li><a href="rsvp.html">RSVP</a></li>
-        <li><a href="regalo.html">Il regalo</a></li>
-      </ul>
-    </nav>
-  </main>
+        <p class="date-time">Sabato 22 Maggio 2027 • Ore 17:30</p>
+      </div>
+    </main>
 
-  <section class="info-cards">
+    <!-- Tre Schede Affiancate -->
+    <section class="cards-grid">
   <div class="card">
   <img src="calendario.png" alt="Calendario" class="card-icon">
 
