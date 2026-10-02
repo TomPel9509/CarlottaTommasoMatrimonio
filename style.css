@@ -56,27 +56,29 @@ header {
   margin: 0 auto;
 }
 
-/* 2. Menu di Navigazione Orizzontale (Senza elenco puntato) */
+/* Menu di Navigazione Orizzontale */
 nav {
-  margin: 20px 0 35px 0;
+  margin: 25px 0 35px 0;
   border-top: 1px solid rgba(197, 160, 89, 0.25);
   border-bottom: 1px solid rgba(197, 160, 89, 0.25);
-  padding: 12px 0;
+  padding: 14px 0;
+  width: 100%;
 }
 
 .nav-links {
-  list-style: none; /* Rimuove i pallini/punti dell'elenco */
+  list-style: none; /* Rimuove i punti dell'elenco */
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly; /* Distribuisce le voci in modo omogeneo su tutta la larghezza */
   align-items: center;
-  gap: 120px;
-  flex-wrap: wrap;
+  gap: 50px; /* Aumenta lo spazio minimo tra un elemento e l'altro */
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li a {
   font-family: var(--font-serif-header);
-  font-size: 1.2rem;
-  letter-spacing: 2px;
+  font-size: 0.95rem;
+  letter-spacing: 3px; /* Aumenta leggermente anche lo spazio tra le singole lettere */
   text-transform: uppercase;
   color: var(--color-primary);
   text-decoration: none;
@@ -86,6 +88,7 @@ nav {
 .nav-links li a:hover {
   color: var(--color-accent);
 }
+
 
 /* 2. Scheda Principale (Invito) - Correzione Allineamento */
 .invitation-card {
