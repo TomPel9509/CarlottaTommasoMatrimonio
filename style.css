@@ -77,8 +77,8 @@ nav {
 
 .nav-links li a {
   font-family: var(--font-serif-header);
-  font-size: 0.95rem;
-  letter-spacing: 3px; /* Aumenta leggermente anche lo spazio tra le singole lettere */
+  font-size: 1.05rem;
+  letter-spacing: 2px; /* Aumenta leggermente anche lo spazio tra le singole lettere */
   text-transform: uppercase;
   color: var(--color-primary);
   text-decoration: none;
