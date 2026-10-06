@@ -65,7 +65,7 @@ nav {
   width: 100%;
 }
 .logo-container img.logo-secondary {
-  max-width: 170px; /* Logo più discreto e compatto per non rubare spazio ai contenuti */
+  max-width: 50px; /* Logo più discreto e compatto per non rubare spazio ai contenuti */
 }
 @media (max-width: 600px) {
   header {
