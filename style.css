@@ -37,7 +37,7 @@ body {
 
 /* 1. Header & Logo Ingrandito */
 header {
-  padding: 30px 0 10px 0;
+  padding: 25px 0 10px 0;
   width: 100%;
 }
 
@@ -49,21 +49,13 @@ header {
 }
 
 .logo-container img {
-  max-width: 220px; /* Logo ingrandito per una visibilità ottimale */
+  max-width: 400px; /* Logo ingrandito per una visibilità ottimale */
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-@media (max-width: 600px) {
-  header {
-    padding: 15px 0 5px 0;
-  }
 
-  .logo-container img {
-    max-width: 160px; /* Riduzione proporzionata per non occupare troppo spazio verticale su mobile */
-  }
-}
 /* Menu di Navigazione Orizzontale */
 nav {
   margin: 25px 0 35px 0;
@@ -72,7 +64,22 @@ nav {
   padding: 14px 0;
   width: 100%;
 }
+.logo-container img.logo-secondary {
+  max-width: 170px; /* Logo più discreto e compatto per non rubare spazio ai contenuti */
+}
+@media (max-width: 600px) {
+  header {
+    padding: 15px 0 5px 0;
+  }
 
+  .logo-container img {
+    max-width: 210px; /* Leggermente ridotto su mobile per la home */
+  }
+
+  .logo-container img.logo-secondary {
+    max-width: 130px; /* Molto compatto su mobile per le pagine interne */
+  }
+}
 .nav-links {
   list-style: none; /* Rimuove i punti dell'elenco */
   display: flex;
