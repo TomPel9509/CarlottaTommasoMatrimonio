@@ -56,18 +56,16 @@ header {
   margin: 0 auto;
 }
 
-/* Menu di Navigazione Orizzontale */
-nav {
-  margin: 25px 0 35px 0;
-  border-top: 1px solid rgba(197, 160, 89, 0.25);
-  border-bottom: 1px solid rgba(197, 160, 89, 0.25);
-  padding: 14px 0;
-  width: 100%;
-}
+
 .logo-container img.logo-secondary {
-  max-width: 50px !important;/* Logo più discreto e compatto per non rubare spazio ai contenuti */
+  max-width: 100px !important;/* Logo più discreto e compatto per non rubare spazio ai contenuti
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
-@media (max-width: 600px) {
+  
+@media (max-width: 400px) {
   header {
     padding: 15px 0 5px 0;
   }
@@ -79,6 +77,15 @@ nav {
   .logo-container img.logo-secondary {
     max-width: 50px !important; /* Molto compatto su mobile per le pagine interne */
   }
+}
+
+/* Menu di Navigazione Orizzontale */
+nav {
+  margin: 25px 0 35px 0;
+  border-top: 1px solid rgba(197, 160, 89, 0.25);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.25);
+  padding: 14px 0;
+  width: 100%;
 }
 .nav-links {
   list-style: none; /* Rimuove i punti dell'elenco */
